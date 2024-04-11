@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            margin-top: 100px;
+            
+        }
+
+        .description{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url(logimage\ -\ Copy.jpeg);
+            padding: 23px;
+            background-size: cover;
+            border: 5px solid rgb(105, 105, 235);
+        }
+        .loginform{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid rgb(105, 105, 235);
+            padding: 20px;
+            background-color: white;
+            width: 400px;
+}
+
+        @media screen and (max-width: 800px) {
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+        
+        h1{
+           color: rgb(213, 201, 186); 
+        }
+        h2{
+            color: rgb(108, 108, 219);
+        }
+        button{
+            background-color:rgb(57, 57, 236);
+            font-size: 30px;
+            border-radius: 25px;
+            color:white;
+            width: 300px;
+            border-color: rgb(75, 75, 213);
+         }
+         input{
+             height: 30px;
+            color:white;
+            width: 320px;
+    
+         }
+         p{
+            color: rgb(214, 160, 160);
+            
+         } 
+         .hh{
+            display: flex;
+            flex-direction: row;
+         }     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <p>Nice to see you again</p>
+            <h1>WELCOME BACK</h1>
+            <hr style="width:60px ; border-radius :5px; border-width:medium;">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        </div>
+
+        <div class="loginform"> 
+            <h2>Account Login</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <hr><br>
+            <form action="">
+                <input style="border-left:6px solid rgb(82, 82, 241); padding:5px; " type="text" placeholder="Email ID"><br><br>
+                <input style="border-left:6px solid rgb(82, 82, 241); padding:5px;"type="text" placeholder="Password"><br><br>
+               <div class="hh"> <input type="checkbox"></input>
+                <label class="form-check-label" for="defaultCheck1">Keep on signed me</label>
+            </div>
+                <pre style="color:rgb(93, 93, 219);">                                      Already a member ?</pre>
+                <br><br>
+                <button>SUBSCRIBE</button>
+          
+            
+            
+
+        </div>
+
+    </div>
+</form>
+   
+</body>
+</html>

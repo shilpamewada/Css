@@ -1,0 +1,26 @@
+.box1{
+    height: 700px;
+    width: 300;
+    background-color: aqua;
+    margin: 10px 50px;
+}
+.box2{
+    height: 100px;
+    width: 500px;
+    background-color: bisque;
+    margin: 10px 100px;
+    display:flex ;
+    flex-direction: row;
+}
+.box3{
+    height: 589px;
+    width: 400-px;
+    background-color:white;
+    margin: 1px 60px;
+    display:flex ;
+    flex-direction: row;
+
+}
+.imp{
+    
+}

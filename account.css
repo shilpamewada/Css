@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}.formcontainer{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;      
+}
+.description{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(176, 205, 205);
+    border-color: aqua;
+    
+}
+.loginform{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+padding: 20px;
+border-color: rgb(218, 222, 222);
+background-color: rgb(204, 180, 180);
+
+}
+.box1{
+    color: rgb(246, 248, 250);
+    font-size: 23px;
+    text-align: center;
+}
+.box2{
+    color: rgb(118, 118, 222);
+    text-align: center;
+    font-size: 23px;
+}
+

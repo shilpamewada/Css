@@ -1,0 +1,37 @@
+ .box1{
+    width:400px ;
+    height: 400px; ;
+    background-color: aqua;
+    margin: 20px;
+    padding: 50px;
+    overflow: scroll;
+}
+.box2{
+    width:400px ;
+    height: 400px; ;
+    background-color: palevioletred;
+    margin: 40; 
+    padding: 50px;
+    overflow: auto;
+
+}
+.box3{
+  width: 200px;
+  height: 200px;
+background-color: bisque;
+margin:10px ;
+overflow: hidden;
+
+}
+.shilpa1{
+  text-align: center;
+}
+.parent{
+  font-size: 20px;
+}
+.child{
+ font-size: 2em; 
+}
+.con{
+  overflow: scroll;
+}

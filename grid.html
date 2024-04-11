@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            height: 60vh;
+            width: 40vw;
+            border: 1px solid red;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr   ;
+            grid-template-rows: 1fr 2fr  2fr 1fr ;
+           /* grid-column-gap: 10px;
+           grid-row-gap:10px;
+            */
+            grid-gap:10px;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+     
+        }
+
+        .grid-container >div{
+            border:1px solid black;
+            font-size: 10px;
+            background-color: aqua;
+          
+        }
+
+        h1{
+            font-size: 1em;
+        }
+
+        .item1{
+            grid-column: 1/span 4;
+        }
+
+      .item2{
+        grid-row: 2/4;
+      }
+     .item7{
+        grid-column: 1/5;
+     }
+    .item3{
+        grid-column: 2/5;
+        
+    }
+    .item6{
+        grid-column: 4/5;
+    }
+    .dd{
+        text-decoration: underline;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    pre{
+        font-size: 10px;
+        font-family: sans-serif;
+        
+    }
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1"><h1 >item1 </h1></div>
+        <div class="item2">item2</div>
+        <div class="item3">item3<br>
+            <a href="#" class="dd">Google</a>
+            <pre>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Aperiam, sequi?<br> Repellat unde autem est eum! .</pre>
+        </div>
+        <div class="item4">item4</div>
+        <div class="item5">item5</div>
+        <div class="item6">item6</div>
+        <div class="item7">item7</div>
+
+
+    </div>
+    
+</body>
+</html>

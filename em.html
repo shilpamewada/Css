@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em and rem</title>
+    <style>
+        .emclass{
+            font-size: 3em;
+            border: 2px solid black;
+        }
+        .remclass{
+            font-size: 3rem;
+            border: 2px solid black;
+        }
+.container{
+font-size: 4px;
+}
+.vhvwclass{
+    background-color: aqua;
+}
+.percentclass{
+    background-color: antiquewhite;
+}
+    </style>
+</head>
+<body>
+    <!--px, %,em,rem,vh,vw EM: Relative to the parent element
+REM: Relative to the root element (HTML tag)
+%: Relative to the parent element
+VW: Relative to the viewport’s width
+VH: Relative to the viewport’s height
+    pixels is for fixed size   1em=16px-->
+
+    <div>
+        <div class="container">
+            <h1 class="emclass">em</h1>
+            <h1 class="remclass">rem</h1>
+        </div>
+    </div>
+    <!--vh height vh width-->
+    <div style="border: px solid black; width:500px;">
+        <div class="vhvwclass">
+            <h1>viewport height</h1>
+            <h1>viewportwidth</h1>
+        </div>
+    </div>
+    <div style="border: 1px solid black; width:600px;">
+        <div class="percentclass"> 
+            <h1>50% of parent</h1>
+    </div>
+    
+</body>
+</html>
